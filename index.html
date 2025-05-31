@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .pdf-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .pdf-item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .pdf-item:hover {
+            transform: translateY(-5px);
+        }
+        .pdf-item h2 {
+            margin-top: 0;
+            color: #2c3e50;
+            font-size: 1.2em;
+        }
+        .pdf-item a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .pdf-item a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>First Year Study Materials</h1>
+    <div class="pdf-container">
+        <div class="pdf-item">
+            <h2>English</h2>
+            <a href="First Year - English.pdf" target="_blank">View PDF</a>
+        </div>
+        <div class="pdf-item">
+            <h2>Mathematics (Ganit)</h2>
+            <a href="First Year - Ganit.pdf" target="_blank">View PDF</a>
+        </div>
+        <div class="pdf-item">
+            <h2>Environmental Studies (Paryavaran)</h2>
+            <a href="First Year - Paryavaran.pdf" target="_blank">View PDF</a>
+        </div>
+        <div class="pdf-item">
+            <h2>Hindi</h2>
+            <a href="First Year - Hindi.pdf" target="_blank">View PDF</a>
+        </div>
+        <div class="pdf-item">
+            <h2>Child Development (Bal Vikas)</h2>
+            <a href="First Year - Bal Vikas aur Seekhna.pdf" target="_blank">View PDF</a>
+        </div>
+        <div class="pdf-item">
+            <h2>Teaching Techniques (Shaikshik Takniki)</h2>
+            <a href="First Year - Shaikshik Takniki.pdf" target="_blank">View PDF</a>
+        </div>
+        <div class="pdf-item">
+            <h2>Knowledge Path (Gyan Pathyacharya)</h2>
+            <a href="First Year - Gyan Pathyacharya.pdf" target="_blank">View PDF</a>
+        </div>
+    </div>
+</body>
+</html> 
